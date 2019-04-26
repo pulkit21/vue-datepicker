@@ -530,7 +530,7 @@ export default {
           value: previousMonth.daysInMonth() - (i),
           inMonth: false,
           action: 'previous',
-          unavailable: false,
+          unavailable: true,
           checked: false,
           moment: moment(currentMoment).date(1).subtract(i + 1, 'days')
         }
